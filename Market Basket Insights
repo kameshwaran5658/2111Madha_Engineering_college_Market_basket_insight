@@ -1,0 +1,43 @@
+Artificial Intelligence - Group 
+B.kameshwaran  211121104027
+Market Basket Insights     
+
+Problem Definition: The problem is to perform market basket analysis on a provided dataset to unveil hidden patterns and associations between products. The goal is to understand customer purchasing behavior and identify potential cross-selling opportunities for a retail business. This project involves using association analysis techniques, such as Apriori algorithm, to find frequently co-occurring products and generate insights for business optimization.
+
+Design Thinking:
+Step: 1 Data Source Selection 
+•	- Choose a dataset that represents real- world sale data, similar as deals records from a retail store,e-commerce platform, or point- of- trade system.
+•	- insure that the dataset contains applicable information, including sale IDs, timestamps, and lists of bought products.
+•	- Consider the size of the dataset, as a larger dataset may give further comprehensive perceptivity but may also bear further computational coffers.
+•	- corroborate the quality and integrity of the data, addressing issues like missing values, outliers, and data thickness.
+•	- Understand the source of the data, its update frequence, and whether it aligns with the objects of the request handbasket analysis.
+Step: 2 Data Preprocessing 
+•	- Remove indistinguishable deals to insure that each sale is counted only formerly.
+•	- Handle missing product information by attributing missing values or banning deals with missing data if they're negligible.
+•	- Render categorical variables, similar as product names, into a format suitable for the Apriori algorithm, like double or one-hot encoding.
+•	- Explore and fantasize introductory statistics and patterns in the data, similar as sale frequence, popular products, and seasonality.
+•	- homogenize or gauge the data if necessary to alleviate the impact of varying sale sizes.
+Step: 3 Association Analysis( Apriori Algorithm) 
+•	- Configure the minimal support threshold, specifying the minimum frequence that an itemset must meet to be considered" frequent."
+•	- Set the minimal confidence threshold, indicating the position of certainty needed for an association rule to be considered significant.
+•	- induce frequent itemsets by applying the Apriori algorithm, which employs alevel-wise hunt approach.
+•	- pare occasional itemsets to optimize computational effectiveness and concentrate on applicable associations.
+•	- induce association rules that detail product connections grounded on support, confidence, and lift values.
+Step: 4 perceptivity Generation
+•	- dissect association rules to identify meaningful patterns and product associations.
+•	- Focus on high- confidence rules, which indicate strong associations between products.
+•	- probe lift values to distinguish between arbitrary associations and those with factual significance.
+•	- Consider the directionality of association rules(e.g., A-> B and B-> A) to understand the inflow of product purchases.
+•	- Explore the size and imbrication of itemsets to gain perceptivity into the complexity of client geste .
+Step: 5 Visualization
+•	- produce bar maps or histograms to fantasize the frequence of product combinations.
+•	- figure heatmaps to represent the strength and direction of associations between products.
+•	- Construct network plates to show interconnections between products in a visually intuitive way.
+•	- Use pie maps or word shadows to punctuate the most common product dyads or associations.
+•	- Consider interactive dashboards for stakeholders to explore the data and perceptivity stoutly.
+Step: 6 Business Recommendations 
+•	- Knitter recommendations to specific business objects, similar as adding deals, optimizing force, or perfecting marketing strategies.
+•	- give practicable perceptivity on which products to rush together forcross-selling openings.
+•	- Suggest strategies for product placement within the store or one-commerce platforms grounded on association findings.
+•	- Recommend substantiated marketing juggernauts targeting guests who constantly buy certain product combinations.
+•	- estimate the implicit impact of enforcing these recommendations and estimate ROI( Return on Investment) when possible.
